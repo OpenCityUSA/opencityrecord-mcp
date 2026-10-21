@@ -1,0 +1,5 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "opencityrecord",
+  "description": "Search U.S. city council meetings, votes, and documents, with citations to the official record."
+}

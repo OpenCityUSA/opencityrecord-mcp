@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "opencityrecord": {
+      "serverUrl": "https://mcp.opencityrecord.org/mcp"
+    }
+  }
+}

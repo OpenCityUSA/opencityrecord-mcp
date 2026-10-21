@@ -1,0 +1,8 @@
+{
+  "identifier": "opencityrecord",
+  "name": "OpenCityRecord",
+  "version": "1.0.0",
+  "description": "Search city council meetings, votes, and documents across U.S. cities, with citations to the official record.",
+  "homepage": "https://opencityrecord.org/mcp",
+  "cloudEndpoint": "https://mcp.opencityrecord.org/mcp"
+}
