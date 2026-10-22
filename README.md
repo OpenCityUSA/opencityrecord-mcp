@@ -43,7 +43,11 @@ claude mcp add --transport http opencityrecord https://mcp.opencityrecord.org/mc
 
 Then run `/mcp` in Claude Code to sign in.
 
-**Cursor** (`~/.cursor/mcp.json`)
+**Cursor**
+
+This repository is a Cursor plugin (`.cursor-plugin/plugin.json` + `mcp.json`). To try it before it is in the Cursor
+Marketplace, clone it and add the folder under Cursor Settings → Plugins. Or add the server to `~/.cursor/mcp.json`
+yourself:
 
 ```json
 {
@@ -85,5 +89,10 @@ Antigravity handles the OAuth sign-in on first use.
 
 | File | Used by |
 |---|---|
+| `.cursor-plugin/plugin.json`, `mcp.json` | Cursor plugin |
 | `plugin.json`, `mcp_config.json` | Google Antigravity plugin |
 | `lhm.plugin.json` | LobeHub MCP Marketplace listing |
+
+## License
+
+MIT. See [LICENSE](LICENSE). The license covers the configuration in this repository, not the hosted service or its data.

@@ -1,0 +1,11 @@
+{
+  "name": "opencityrecord",
+  "description": "Search U.S. city council, planning commission, and county meetings: transcripts, votes from approved minutes, documents, and elected officials, with citations to the official record.",
+  "version": "1.0.0",
+  "author": { "name": "OpenCity", "email": "support@opencityrecord.org" },
+  "homepage": "https://opencityrecord.org/mcp",
+  "repository": "https://github.com/OpenCityUSA/opencityrecord-mcp",
+  "license": "MIT",
+  "keywords": ["local-government", "city-council", "public-records", "civic", "votes", "research"],
+  "logo": "assets/logo.png"
+}
