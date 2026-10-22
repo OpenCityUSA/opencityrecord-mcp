@@ -1,5 +1,5 @@
 {
-  "identifier": "opencityrecord",
+  "identifier": "opencityusa-opencityrecord-mcp",
   "name": "OpenCityRecord",
   "version": "1.0.0",
   "description": "Search city council meetings, votes, and documents across U.S. cities, with citations to the official record.",
