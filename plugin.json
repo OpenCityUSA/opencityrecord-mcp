@@ -1,5 +1,29 @@
 {
   "$schema": "https://antigravity.google/schemas/v1/plugin.json",
   "name": "opencityrecord",
-  "description": "Search U.S. city council meetings, votes, and documents, with citations to the official record."
+  "displayName": "OpenCityRecord",
+  "description": "Search U.S. city council meetings, votes, and documents, with citations to the official record.",
+  "version": "1.0.0",
+  "logo": "assets/logo.png",
+  "suggestedPrompts": [
+    "What did the Lehi City Council decide in September?",
+    "Which cities have voted on Flock Safety license-plate cameras, and what did they decide?",
+    "How has Lehi council member Emily Lockhart voted since July?"
+  ],
+  "author": {
+    "name": "OpenCity",
+    "email": "support@opencityrecord.org"
+  },
+  "homepage": "https://opencityrecord.org/mcp",
+  "repository": "https://github.com/OpenCityUSA/opencityrecord-mcp",
+  "license": "MIT",
+  "keywords": [
+    "local-government",
+    "city-council",
+    "public-records",
+    "civic",
+    "votes",
+    "research",
+    "mcp"
+  ]
 }
