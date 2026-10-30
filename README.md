@@ -77,6 +77,34 @@ Or add the server to `~/.gemini/config/mcp_config.json` yourself:
 
 Antigravity handles the OAuth sign-in on first use.
 
+**Gemini CLI**
+
+This repository is also a Gemini CLI extension (`gemini-extension.json` + `GEMINI.md`):
+
+```bash
+gemini extensions install https://github.com/OpenCityUSA/opencityrecord-mcp
+```
+
+Then run `/mcp auth opencityrecord` once to sign in. Or add the server to `~/.gemini/settings.json` yourself:
+
+```json
+{
+  "mcpServers": {
+    "opencityrecord": {
+      "httpUrl": "https://mcp.opencityrecord.org/mcp",
+      "oauth": { "enabled": true }
+    }
+  }
+}
+```
+
+**Gemini app**
+
+Once the OpenCityRecord connected app is published, type `@OpenCityRecord` followed by your question. Until then you can
+connect it yourself: open https://gemini.google.com/devmode, choose **+ Create new**, paste
+`https://mcp.opencityrecord.org/mcp` as the MCP Server URL, and pick **Dynamic Client Registration** under
+**Authentication**.
+
 ## Example questions
 
 - "What did the Lehi City Council decide in September?"
@@ -91,6 +119,7 @@ Antigravity handles the OAuth sign-in on first use.
 |---|---|
 | `.cursor-plugin/plugin.json`, `mcp.json` | Cursor plugin |
 | `plugin.json`, `mcp_config.json` | Google Antigravity plugin |
+| `gemini-extension.json`, `GEMINI.md` | Gemini CLI extension (geminicli.com extensions gallery) |
 | `lhm.plugin.json` | LobeHub MCP Marketplace listing |
 
 ## License

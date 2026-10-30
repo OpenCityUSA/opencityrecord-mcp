@@ -1,0 +1,22 @@
+{
+  "name": "opencityrecord",
+  "version": "1.0.0",
+  "description": "Search U.S. city council meetings, votes, and documents, with citations to the official record.",
+  "mcpServers": {
+    "opencityrecord": {
+      "httpUrl": "https://mcp.opencityrecord.org/mcp",
+      "authProviderType": "dynamic_discovery",
+      "oauth": {
+        "enabled": true,
+        "scopes": [
+          "openid",
+          "email",
+          "profile"
+        ]
+      },
+      "timeout": 60000,
+      "trust": false
+    }
+  },
+  "contextFileName": "GEMINI.md"
+}
