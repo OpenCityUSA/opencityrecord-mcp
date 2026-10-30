@@ -14,8 +14,7 @@
           "profile"
         ]
       },
-      "timeout": 60000,
-      "trust": false
+      "timeout": 60000
     }
   },
   "contextFileName": "GEMINI.md"
