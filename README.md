@@ -15,6 +15,7 @@ or run.
 | Auth | OAuth 2.1 with Dynamic Client Registration: sign in with an OpenCityRecord account, no API key |
 | Registry | [`org.opencityrecord/opencity`](https://registry.modelcontextprotocol.io/v0.1/servers?search=org.opencityrecord) in the official MCP Registry |
 | Docs and sign-up | https://opencityrecord.org/mcp (the free account covers one city) |
+| Developer docs | https://opencityrecord.org/developers (every tool, the plain-text search API, plans) |
 | Support | support@opencityrecord.org |
 
 ## What it covers
@@ -25,8 +26,8 @@ or run.
 - Current and former elected officials, with voting records
 - Issue and development-application timelines across meetings
 
-Coverage today is 340+ cities and counties in 14 states, mostly in Texas, Utah, California, Florida, Arizona, and New
-York, updated within hours of meetings being published.
+Coverage today is 1,200+ cities and counties in all 50 states, largest in California, Texas, Florida, Utah, and North
+Carolina, updated within hours of meetings being published. Live coverage by state: https://opencityrecord.org/states.
 
 Elected officials are identified; members of the public, applicants, and city staff speaking at the mic are never named.
 All tools are read-only.
